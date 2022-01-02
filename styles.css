@@ -46,7 +46,7 @@ article {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	min-height: calc(100vh - 3rem);
+	min-height: 500px;
 	background-color: #fff;
 	border-radius: 1rem;
 	-webkit-border-radius: 1rem;
@@ -60,7 +60,7 @@ article .share-section {
 	flex: 1;
 }
 article .back-img {
-	flex: 4;
+	flex: 9;
 	border-radius: 1rem 1rem 0 0;
 	width: 100%;
 	background-image: url(/drawers.jpg);
@@ -72,15 +72,15 @@ article .back-img {
 }
 article .text {
 	padding: 2.5rem 1rem 0 1rem;
-	line-height: 0.9;
+	line-height: 1.2;
 }
 article .text p:first-of-type {
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: var(--lg-font);
 	color: var(--primary-color);
 }
 article .text p:last-of-type {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: var(--md-font);
 	color: var(--second-color);
 	margin-block-start: 1rem;
@@ -89,6 +89,7 @@ article .share-section {
 	display: flex;
 	height: 45px;
 	padding: 0 1rem;
+	margin-block-start: px;
 	align-items: center;
 	gap: 1rem;
 }
@@ -106,7 +107,7 @@ article .share-section .logo {
 	-o-border-radius: 100%;
 }
 article .share-section .flex-details {
-	flex: 2;
+	flex: 1;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -115,7 +116,7 @@ article .share-section .details {
 	align-content: flex-start;
 }
 article .share-section .details p:first-of-type {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: var(--lg-font);
 	color: var(--primary-color);
 }
